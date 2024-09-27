@@ -17,6 +17,10 @@ public class ErrorDetail {
         return timestamp;
     }
 
+    public void setTimestamp(LocalDate timestamp) {
+        this.timestamp = timestamp;
+    }
+
     public String getMessage() {
         return message;
     }
@@ -25,6 +29,7 @@ public class ErrorDetail {
     public String getDetail() {
         return detail;
     }
+
 
     
 }
